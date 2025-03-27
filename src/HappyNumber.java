@@ -3,9 +3,8 @@ public class HappyNumber {
         while(n > 9){
             n = getNum(n);
         }
-        if(n == 7) return true; 
-        if(n != 1 && n < 10) return false;
-        return true;
+        if(n == 7 || n==1) return true;
+        return false;
     }
     public int getNum(int n){
         int[] result = new int[String.valueOf(n).length()];
