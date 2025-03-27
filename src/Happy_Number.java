@@ -1,4 +1,4 @@
-public class HappyNumber {
+public class Happy_Number {
     public boolean isHappy(int n){
         while(n > 9){
             n = getNum(n);
@@ -18,7 +18,7 @@ public class HappyNumber {
         return n;
     }
     public static void main(String[] args) {
-        HappyNumber hn = new HappyNumber();
+        Happy_Number hn = new Happy_Number();
         System.out.println(hn.isHappy(19));
     }
 }
